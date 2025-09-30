@@ -19,10 +19,10 @@ class AgentState(TypedDict):
     messages: Annotated[Sequence[BaseMessage], add_messages]
 
 llm = ChatOpenAI(model="gpt-4o", temperature=0)
-#llm = ChatOllama(model="llama3.1:8b", temperature=0, base_url=("http://192.168.1.150:11434")) #bad
-#llm = ChatOllama(model="gpt-oss:20b", temperature=0, base_url=("http://192.168.1.37:11434")) #good
-#llm = ChatOllama(model="gpt-oss:20b", temperature=0, base_url=("http://192.168.1.198:11434")) #good
-#llm = ChatOllama(model="mistral-nemo:12b", temperature=0, base_url=("http://192.168.1.198:11434")) #better
+#llm = ChatOllama(model="llama3.1:8b", temperature=0, base_url=("http://")) #bad
+#llm = ChatOllama(model="gpt-oss:20b", temperature=0, base_url=("http://")) #good
+#llm = ChatOllama(model="gpt-oss:20b", temperature=0, base_url=("http://")) #good
+#llm = ChatOllama(model="mistral-nemo:12b", temperature=0, base_url=("http://")) #better
 
 tools = [
     get_customer_services_tool, get_service_parameters, 

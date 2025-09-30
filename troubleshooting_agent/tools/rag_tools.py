@@ -8,7 +8,7 @@ from langchain_core.tools import tool
 
 # Initialize embeddings and make a retriever
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
-#embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest", base_url=("http://192.168.1.198:11434"))
+#embeddings = OllamaEmbeddings(model="mxbai-embed-large:latest", base_url=("http://")) #good
 pdf_path = "data/MPLS L3VPN Troubleshooting Guide_v3.pdf"
 
 if not os.path.exists(pdf_path):
