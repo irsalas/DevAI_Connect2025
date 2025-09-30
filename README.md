@@ -1,7 +1,6 @@
 # DevAI_Connect2025
-DevAI_Connect2025
 
-**** Descripción General  ML-DL-Demos Folder ****
+## Descripción General  ML-DL-Demos Folder
 
 Este repositorio contiene el codigo que muestran técnicas de Machine Learning (ML) y Deep Learning (DL) aplicadas al análisis y pronóstico de métricas de red.
 
@@ -114,7 +113,7 @@ Estos notebooks fueron desarrollados como parte de un trabajo aplicado en ML y D
 
 
 
-**** Descripción General Troubleshooting Agent Folder ****
+## Descripción General Troubleshooting Agent Folder
 
 En este folder encontraran el codigo del agente (basado en langgraph) y el front-end del chatbor (streamlit).
 Para iniciarlo ejecutar el comando: streamlit run main.py dentro del directorio "troubleshooting_agent".
