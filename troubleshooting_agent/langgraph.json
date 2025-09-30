@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "your_agent_name": "./app/agent_logic.py:build_graph"
+  },
+  "dependencies": [
+    "."
+  ]
+}
