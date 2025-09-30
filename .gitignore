@@ -80,7 +80,7 @@ env.bak/
 venv.bak/
 /troubleshooting_agent/.env
 /troubleshooting_agent/.langgraph_api/
-/vectorstore/persisted_data/
+
 
 # Spyder project settings
 .spyderproject
