@@ -114,3 +114,21 @@ Estos notebooks fueron desarrollados como parte de un trabajo aplicado en ML y D
 
 
 
+**** Descripción General Troubleshooting Agent Folder ****
+
+En este folder encontraran el codigo del agente (basado en langgraph) y el front-end del chatbor (streamlit).
+Para iniciarlo ejecutar el comando: streamlit run main.py dentro del directorio "troubleshooting_agent".
+
+Ten en cuenta que para interactuar con el NSO y por ende para obtener informacion en tiempo real del entorno de red tendras que tenerlo configurado por separado (no se incluye en este proyecto).
+
+De igual forma las credenciales se deberian poder cargar desde un file dentro del folder denominado .env (en este caso vacio).
+Dentro de ese archivo tienes que configurar tus variables y credenciales. El codigo carga las siguientes variables:
+- OPENAI_API_KEY
+- NSO_USER
+- NSO_PWD
+- NSO_URL
+- DATABASE_URL
+- LANGSMITH_TRACING
+- LANGSMITH_API_KEY
+- LANGSMITH_ENDPOINT
+- LANGSMITH_PROJECT
